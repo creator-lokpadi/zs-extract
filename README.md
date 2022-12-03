@@ -17,9 +17,16 @@ This module simplifies extracting download info from a Zippyshare link. Instead 
 # Usage
 
 ```js
+Esm
 import {extract} from 'zs-extract';
 
 console.log(await extract('https://www83.zippyshare.com/v/yakMuCxe/file.html'));
+
+Cjs
+let zsExtract = require ('zs-extract')
+
+let res = await zsExtract.extract(link)
+
 ```
 
 ```
